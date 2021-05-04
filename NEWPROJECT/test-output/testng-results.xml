@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55423" started-at="2021-05-04T07:37:43 IST" finished-at="2021-05-04T07:38:39 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55423" started-at="2021-05-04T07:37:43 IST" finished-at="2021-05-04T07:38:39 IST">
+      <class name="testcases.GmailTest">
+        <test-method status="PASS" signature="testcases()[pri:0, instance:testcases.GmailTest@7d0587f1]" name="testcases" duration-ms="55012" started-at="2021-05-04T07:37:43 IST" finished-at="2021-05-04T07:38:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcases -->
+      </class> <!-- testcases.GmailTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
