@@ -15,13 +15,13 @@ public class DriverScript {
 
 	public static HashMap<String, String> add;
 	public void loadData(String testcaseno) throws Throwable, Throwable {
-	String	path=System.getProperty("user.dir");
-		Workbook w=Workbook.getWorkbook(new File(path+"/src/test/resources/exceldata/login1.xls"));
+		String	path=System.getProperty("user.dir"+"/src/test/resources/exceldata/login1.xls");
+		Workbook w=Workbook.getWorkbook(new File(path));
 		Sheet s=w.getSheet(0);
 		int row=s.getRows();
 		int col=s.getColumns();
 		int testno=0;
-		
+
 		loop:for(int i=0;i<row;i++) {
 			if(s.getCell(0,i).getContents().equals(testcaseno)) {
 				testno=i;
